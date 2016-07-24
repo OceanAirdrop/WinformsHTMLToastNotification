@@ -7,7 +7,10 @@ using TheArtOfDev.HtmlRenderer.WinForms;
 
 namespace WinFormUtils
 {
-    class FloatingHTML : FloatingWindow
+
+    public enum ToastNotificationType { Success, Warning, Error }
+
+    public class FloatingHTML : FloatingWindow
     {
         Bitmap m_bitmap = null;
         Image m_image = null;

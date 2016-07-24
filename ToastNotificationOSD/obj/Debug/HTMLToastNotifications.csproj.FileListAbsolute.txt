@@ -1,0 +1,13 @@
+C:\Users\acooper\Source\Repos\WinformsHTMLToastNotification\ToastNotificationOSD\bin\Debug\ToastNotificationOSD.exe.config
+C:\Users\acooper\Source\Repos\WinformsHTMLToastNotification\ToastNotificationOSD\bin\Debug\ToastNotificationOSD.exe
+C:\Users\acooper\Source\Repos\WinformsHTMLToastNotification\ToastNotificationOSD\bin\Debug\ToastNotificationOSD.pdb
+C:\Users\acooper\Source\Repos\WinformsHTMLToastNotification\ToastNotificationOSD\bin\Debug\HtmlRenderer.dll
+C:\Users\acooper\Source\Repos\WinformsHTMLToastNotification\ToastNotificationOSD\bin\Debug\HtmlRenderer.WinForms.dll
+C:\Users\acooper\Source\Repos\WinformsHTMLToastNotification\ToastNotificationOSD\bin\Debug\HtmlRenderer.pdb
+C:\Users\acooper\Source\Repos\WinformsHTMLToastNotification\ToastNotificationOSD\bin\Debug\HtmlRenderer.WinForms.pdb
+C:\Users\acooper\Source\Repos\WinformsHTMLToastNotification\ToastNotificationOSD\obj\Debug\HTMLToastNotifications.csprojResolveAssemblyReference.cache
+C:\Users\acooper\Source\Repos\WinformsHTMLToastNotification\ToastNotificationOSD\obj\Debug\ToastNotificationOSD.Form1.resources
+C:\Users\acooper\Source\Repos\WinformsHTMLToastNotification\ToastNotificationOSD\obj\Debug\ToastNotificationOSD.Properties.Resources.resources
+C:\Users\acooper\Source\Repos\WinformsHTMLToastNotification\ToastNotificationOSD\obj\Debug\HTMLToastNotifications.csproj.GenerateResource.Cache
+C:\Users\acooper\Source\Repos\WinformsHTMLToastNotification\ToastNotificationOSD\obj\Debug\ToastNotificationOSD.exe
+C:\Users\acooper\Source\Repos\WinformsHTMLToastNotification\ToastNotificationOSD\obj\Debug\ToastNotificationOSD.pdb

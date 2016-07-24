@@ -346,7 +346,8 @@ namespace WinFormUtils
                 this.PerformWmPaint_WmPrintClient(ref m, false);
                 return;
             }
-			base.WndProc(ref m);
+
+            base.WndProc(ref m);
 		}
 		#endregion
 
@@ -593,11 +594,21 @@ namespace WinFormUtils
         public const uint AW_ACTIVATE = 0x20000;
         public const uint AW_SLIDE = 0x40000;
         public const uint AW_BLEND = 0x80000;
+
+        public const uint MOUSEEVENTF_LEFTDOWN = 0x02;
+        public const uint MOUSEEVENTF_LEFTUP = 0x04;
+        public const uint MOUSEEVENTF_RIGHTDOWN = 0x08;
+        public const uint MOUSEEVENTF_RIGHTUP = 0x10;
+
         // Methods
-		private User32()
+        private User32()
 		{
 		}
-		[DllImport("User32.dll", CharSet=CharSet.Auto)]
+
+        [DllImport("user32.dll", CharSet = CharSet.Auto, CallingConvention = CallingConvention.StdCall)]
+        public static extern void MouseEvent(uint dwFlags, uint dx, uint dy, uint cButtons, UIntPtr dwExtraInfo);
+
+        [DllImport("User32.dll", CharSet=CharSet.Auto)]
 		internal static extern bool AnimateWindow(IntPtr hWnd, uint dwTime, uint dwFlags);
 		[DllImport("User32.dll", CharSet=CharSet.Auto)]
 		internal static extern IntPtr BeginPaint(IntPtr hWnd, ref PAINTSTRUCT ps);
