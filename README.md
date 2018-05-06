@@ -3,6 +3,8 @@
 
 WinformsHTMLToastNotification gives you the ability to display popup toast notifications in a WinForms application.
 
+http://oceanairdrop.blogspot.co.uk/2016/10/winforms-html-toast-notifications.html
+
 The toast popups can be HTML Text or Images.
 
 ![alt tag](https://raw.githubusercontent.com/OceanAirdrop/WinformsHTMLToastNotification/master/ToastNotificationOSD/Images/demo.gif)
